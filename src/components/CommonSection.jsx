@@ -14,7 +14,7 @@ const CommonSection = ({name,image,status}) => {
             <p className="common-para"> At OTT (On Time Tiffin), we understand the hustle of modern life. Our mission is simple: to bring joy to your table every day. With our hygienic, home-cooked meals, delivered right to you, we aim to make your lunchtime hassle-free and enjoyable. Say goodbye to meal prep stress and hello to delicious, affordable options for everyone. Experience the convenience of OTT (On Time Tiffin) and let us take care of your lunch needs, so you can focus on what matters most.</p>
             {/* Show read more button only on home page. */}
             {status === "true" && (
-              <Button className="btn contact-btn">
+              <Button className="btn contact-btn common-btn">
                 <a href="/about">Read More</a>
               </Button>
             )}

@@ -37,6 +37,11 @@ const Contact = () => {
       margin-bottom: 20px;
     }
 
+    .input-box .input{
+      background-color: white;
+      color: black;
+    }
+
     .social-icons {
       display: flex;
     
@@ -124,27 +129,27 @@ const Contact = () => {
                   <form action="https://formspree.io/f/mgegyplv" method="POST">
                     <h2>Send Message</h2>
                     <div className="input-box">
-                      <input type="text" name="name" autoComplete="off" required/>
+                      <input type="text" className="input" name="name" autoComplete="off" required/>
                       <span>Name</span>
                     </div>
 
                     <div className="input-box">
-                      <input type="email" name="Email" autoComplete="off" required/>
+                      <input type="email" className="input" name="Email" autoComplete="off" required/>
                       <span>Email</span>
                     </div>
 
                     <div className="input-box">
-                    <input type="tel" name="telphone"  pattern="[0-9]{10}" title="Ten digits number" required/>  
+                    <input type="tel" className="input" name="telphone"  pattern="[0-9]{10}" title="Ten digits number" required/>  
                       <span>Phone</span>
                     </div>
 
                     <div className="input-box">
-                      <textarea name="message" cols= "30" rows="6" autoComplete="off" required></textarea>
+                      <textarea name="message" className="input" cols= "30" rows="6" autoComplete="off" required></textarea>
                       <span>Type your Message...</span>
                     </div>
 
                     <div>
-                      <Button className="btn contact-btn" type="submit">
+                      <Button className="btn contact-btn common-btn" type="submit">
                         <a>Send</a>
                       </Button>
                     </div>

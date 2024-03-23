@@ -36,7 +36,7 @@ export const Button = styled.button`
   &:hover:after{
     width: 100%;
   }
-  
+
   a {
     color: black;
     position: relative;
