@@ -15,6 +15,10 @@ html {
   overflow-x: hidden;
 }
 
+.pages {
+  background-color: ${({ theme }) => theme.colors.white};
+}
+
 h1 {
   color: ${({ theme }) => theme.colors.heading};
   font-size: 6rem;
