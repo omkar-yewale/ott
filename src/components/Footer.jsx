@@ -24,7 +24,7 @@ const Footer = () => {
         <PrivacyModal />
         </p>
         <p><FaRegCopyright /> {new Date().getFullYear()} All Rights Reserved. </p>
-        <p>Designed & Developed by <a href="https://main--web-omkaryewale.netlify.app/" target="blank">Omkar Yewale.</a></p>
+        <p>Designed & Developed by <a href="https://www.linkedin.com/in/omkar-yewale-77a88ba2/" target="blank">Omkar Yewale.</a></p>
     </div>
     </footer>
     </>
