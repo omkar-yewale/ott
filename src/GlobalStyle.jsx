@@ -33,6 +33,7 @@ h1 {
 h3 {
   font-size: 1.8rem;
   font-weight: 400;
+  color: ${({ theme }) => theme.colors.black};
 }
 
 p {

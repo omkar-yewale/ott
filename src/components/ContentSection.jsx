@@ -134,10 +134,11 @@ const Wrapper = styled.section`
     letter-spacing: -1px;
     font-weight: 500;
     margin-bottom: 10px;
+    color: #5b5858;
   }
   
   .content-list h3:hover {
-    color: #999;
+    color: ${({ theme }) => theme.colors.black};
   }
   
   .content-list .description {

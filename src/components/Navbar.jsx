@@ -54,13 +54,13 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER"
+                to="https://api.whatsapp.com/send?phone=7620747379"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
               <a
-              href="https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER"
+              href="https://api.whatsapp.com/send?phone=7620747379"
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-icon"

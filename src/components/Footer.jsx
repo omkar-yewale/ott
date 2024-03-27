@@ -9,10 +9,10 @@ const Footer = () => {
     <footer className="footer-distributed">
     <div className="footer-right">
         <div className="footer-icons">
-            <a href="https://www.linkedin.com/in/omkar-yewale-77a88ba2/" alt="linkdin" target="_blank"> <FaMessage className="icons"/></a>
+            <a href="mailto:someone@example.com" alt="mail" target="_blank"> <FaMessage className="icons"/></a>
         </div>
         <div className="footer-icons">
-            <a href="https://www.linkedin.com/in/omkar-yewale-77a88ba2/" alt="linkdin" target="_blank"> <FaWhatsapp className="icons"/></a>
+            <a href="https://api.whatsapp.com/send?phone=7620747379" alt="whatsapp" target="_blank"> <FaWhatsapp className="icons"/></a>
         </div>
     </div>
 
