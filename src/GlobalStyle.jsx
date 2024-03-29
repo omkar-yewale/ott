@@ -36,6 +36,10 @@ h3 {
   color: ${({ theme }) => theme.colors.black};
 }
 
+.policy {
+  color: ${({ theme }) => theme.colors.black};
+}
+
 p {
   color: ${({ theme }) => theme.colors.text};
   opacity: 0.8;
